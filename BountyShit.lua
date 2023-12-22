@@ -624,7 +624,7 @@ function GetAndCheckMeleeMastery(bu, bs)
     end
     return 0
 end
-tablemm = {"Black Leg", "Electro", "Fishman Karate", "Dragon Claw"}
+tablemm = {"Electric Claw", "Dragon Talon", "Godhuman",}
 function DetectMeleeSPHM()
     vanmeo = SaveMasteryMelee()
     for r, v in pairs(tablemm) do
